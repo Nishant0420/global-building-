@@ -1,5 +1,5 @@
 * {
-    background-color: #474564;
+    background-color: #3d3d5c;
     box-sizing: border-box; 
 }
 
@@ -92,7 +92,6 @@ input[type="email"], input[type="text"] {
     padding: 60px 0;
     margin-top: 50px;
     position: relative;
-    /* overflow: hidden;  */
     background-color: transparent;
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
@@ -192,7 +191,7 @@ input[type="email"], input[type="text"] {
      color: #adb5bd;
 }
 
-.pattern{
+.patterns{
     background-image: url(plus.png);
     width: 536px;
     height: 400px;
@@ -218,7 +217,6 @@ input[type="email"], input[type="text"] {
     display: flex;
     align-items: flex-end; 
     justify-content: center;
-    /* overflow: auto; */
     background-color: transparent;
     position: relative;
     top: -70px;
@@ -509,7 +507,15 @@ input[type="email"], input[type="text"] {
      background-color: transparent; 
      position: relative; 
 }
-
+.pattern{
+    background-image: url(plus.png);
+    width: 536px;
+    height: 440px;
+    z-index: 1;
+    position: absolute;
+    top: 92px;
+    left: 445px;
+}
 .team-content-wrapper {
     position: relative;
     max-width: 850px; 
@@ -862,7 +868,15 @@ input[type="email"], input[type="text"] {
 /* ======================================== */
 /* === START: Phase 6 - About Us Styles === */
 /* ======================================== */
-
+.patterns0{
+    background-image: url(plus.png);
+    width: 540px;
+    height: 400px;
+    z-index: 1;
+    position: absolute;
+    top: -67px;
+    left: -100px;
+}
 .about-us-section {
     padding: 80px 0;
     position: relative;
@@ -889,10 +903,10 @@ input[type="email"], input[type="text"] {
 /* About Us Decorative Shapes */
 .shape-orange-about {
     background-color: #f37e2e; 
-    width: 400px; 
+    width: 405px; 
     height: 400px; 
     position: absolute;
-    left: -37px;
+    left: -45px;
     top: 50px;   
     z-index: 1;  
 }
@@ -1207,6 +1221,7 @@ input[type="email"], input[type="text"] {
     gap: 30px; 
     background-color: transparent;
     margin-bottom: 30px; 
+    
 }
 
 .service-card {
@@ -1217,6 +1232,7 @@ input[type="email"], input[type="text"] {
     overflow: hidden; 
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+
 }
 
 .service-card:hover {
@@ -1225,6 +1241,7 @@ input[type="email"], input[type="text"] {
 }
 
 .service-card-image {
+
     width: 100%;
     height: 200px;
     object-fit: cover; 
